@@ -6,7 +6,7 @@ import time
 
 
 ## Variáveis bases ##
-token = '2041377110:AAG1fjdmxAc0Pq7gPhKggoPV1WSY2cf92h4'
+token = 'TOKEN DO BOT AQUI'
 bot = telebot.TeleBot(token, parse_mode='html')
 
 
