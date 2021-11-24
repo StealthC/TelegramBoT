@@ -3,12 +3,14 @@ import telebot
 import requests
 import os
 import time
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 ## Variáveis bases ##
-token = 'TOKEN DO BOT AQUI'
+token = os.environ.get("BOT_TOKEN")
 bot = telebot.TeleBot(token, parse_mode='html')
-
 
 ## Comandos ##
 @bot.message_handler(commands='gato')

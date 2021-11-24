@@ -10,9 +10,9 @@ Um simples bot escrito em Python usando a lib [pyTelegramBotAPI](https://github.
 ```bash
 pip install -r requirements.txt
 ```
-4. Editar o Token em ***bot_ofc.py***
+4. Criar um arquivo `.env` (use o arquivo `.env-sample` como exemplo e coloque seu token lá
 ```python
-token = 'Token do BOT Aqui'
+BOT_TOKEN=Token_do_BOT_Aqui
 ````
 
 ### Linux Debian / Ubuntu
